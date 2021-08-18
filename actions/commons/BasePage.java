@@ -15,6 +15,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.nopcommerce.MyAccountPageObject;
+import pageObjects.nopcommerce.OrderPageObject;
+import pageObjects.nopcommerce.SearchPageObject;
+import pageUIs.nopcommerce.BasePageUI;
+
 public class BasePage {
 	
 	private Alert alert;
@@ -363,6 +368,41 @@ public class BasePage {
 	public void waitForElementInvisible(WebDriver driver, String locator) {
 		explicitWait = new WebDriverWait(driver,timeout);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(locator)));
+	}
+	
+	public OrderPageObject openOrderPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.ORDER_PAGE_FOOTER);
+		clickToElement(driver, BasePageUI.ORDER_PAGE_FOOTER);
+		return new OrderPageObject(driver);
+	}
+	
+	public MyAccountPageObject openMyAccountPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.MY_ACCOUNT_PAGE_FOOTER);
+		clickToElement(driver, BasePageUI.MY_ACCOUNT_PAGE_FOOTER);
+		return new MyAccountPageObject(driver);
+	}
+	
+	public SearchPageObject openSearchPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.SEARCH_PAGE_FOOTER);
+		clickToElement(driver, BasePageUI.SEARCH_PAGE_FOOTER);
+		return new SearchPageObject(driver);
+	}
+	
+	public BasePage openPageByNameFromFooter(WebDriver driver, BasePageUI.PAGE_NAME pageName) {
+		String locator = String.format(BasePageUI.FOOTER_TEMPLATE, BasePageUI.getPageName(pageName));
+		waitForElementClickable(driver, locator);
+		clickToElement(driver, locator);
+		
+		switch (pageName) {
+			case SEARCH:
+				return new SearchPageObject(driver);
+			case MYACCOUNT:
+				return new MyAccountPageObject(driver);
+			case ORDERS:
+				return new OrderPageObject(driver);
+		}
+		
+		return null;
 	}
 	
 }

@@ -10,11 +10,12 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import commons.PageGeneratorManager;
 import pageObjects.nopcommerce.HomePageObject;
 import pageObjects.nopcommerce.LoginPageObject;
 import pageObjects.nopcommerce.RegisterPageObject;
 
-public class Level_04_Register_Login_Multi_Browser extends BaseTest {
+public class Level_06_Register_Login_Page_Generator extends BaseTest {
 		
 	WebDriver driver;
 	HomePageObject homePage;
@@ -37,14 +38,13 @@ public class Level_04_Register_Login_Multi_Browser extends BaseTest {
 	public void Login_01_Register_To_System() {
 		//Step 1. Open URL
 		driver.get("https://demo.nopcommerce.com/");
-		homePage = new HomePageObject(driver);
+		homePage = PageGeneratorManager.getHomePage(driver);
 		
 		//Step 2. Verify logo of homepage displayed
 		Assert.assertTrue(homePage.isHomePageLogoDisplayed());
 				
 		//Step 3. Click Register link --> Register page
-		homePage.clickToRegisterLink();
-		registerPage = new RegisterPageObject(driver);
+		registerPage = homePage.clickToRegisterLink();
 		
 		//Step 4. Click to gender male radio
 		registerPage.clickToGenderMaleRadioButton();
@@ -71,15 +71,13 @@ public class Level_04_Register_Login_Multi_Browser extends BaseTest {
 		Assert.assertTrue(registerPage.isSuccessMessageDisplayed());
 		
 		//Step 12. Logout to HomePage
-		registerPage.clickToLogoutLink();
-		homePage = new HomePageObject(driver);
+		homePage = registerPage.clickToLogoutLink();
 	}
 	
 	@Test
 	public void Login_02_Login() {
 		//Step 1. Click to login link
-		homePage.clickToLoginLink();
-		loginPage = new LoginPageObject(driver);
+		loginPage = homePage.clickToLoginLink();
 		
 		//Step 2. Input to email textbox
 		loginPage.enterToEmailTextbox(email);
