@@ -1,10 +1,6 @@
-package commons;
+package pageObjects.nopcommerce;
 
 import org.openqa.selenium.WebDriver;
-
-import pageObjects.nopcommerce.HomePageObject;
-import pageObjects.nopcommerce.LoginPageObject;
-import pageObjects.nopcommerce.RegisterPageObject;
 
 public class PageGeneratorManager {
 	

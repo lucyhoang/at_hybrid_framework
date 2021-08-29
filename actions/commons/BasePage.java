@@ -131,12 +131,20 @@ public class BasePage {
 		return driver.findElement(getByXpath(locator));
 	}
 	
+	public WebElement getElement(WebDriver driver, String locator, String...params) {
+		return driver.findElement(getByXpath(formatString(locator, params)));
+	}
+	
 	public List<WebElement> getElements(WebDriver driver, String locator) {
 		return driver.findElements(getByXpath(locator));
 	}
 	
 	public void clickToElement(WebDriver driver, String locator) {
 		getElement(driver, locator).click();
+	}
+	
+	public void clickToElement(WebDriver driver, String locator, String...params) {
+		getElement(driver, formatString(locator, params)).click();
 	}
 	
 	public void sendKeyToElement(WebDriver driver, String locator, String value) {
@@ -187,6 +195,10 @@ public class BasePage {
 		return getElement(driver, locator).getAttribute(attributeName);
 	}
 	
+	public String getElementAttributeValue(WebDriver driver, String locator, String attributeName, String...params) {
+		return getElement(driver, formatString(locator, params)).getAttribute(attributeName);
+	}
+	
 	public String getElementAttributeText(WebDriver driver, String locator) {
 		return getElement(driver, locator).getText();
 	}
@@ -207,6 +219,10 @@ public class BasePage {
 	
 	public boolean isElementDisplayed(WebDriver driver, String locator) {
 		return getElement(driver, locator).isDisplayed();
+	}
+	
+	public boolean isElementDisplayed(WebDriver driver, String locator, String...params) {
+		return getElement(driver, formatString(locator, params)).isDisplayed();
 	}
 	
 	public boolean isElementEnabled(WebDriver driver, String locator) {
@@ -355,9 +371,19 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByXpath(locator)));
 	}
 	
+	public void waitForElementVisible(WebDriver driver, String locator, String... params) {
+		explicitWait = new WebDriverWait(driver,timeout);
+		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByXpath(formatString(locator, params))));
+	}
+	
 	public void waitForAllElementVisible(WebDriver driver, String locator) {
 		explicitWait = new WebDriverWait(driver,timeout);
 		explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByXpath(locator)));
+	}
+	
+	public void waitForAllElementVisible(WebDriver driver, String locator, String... params) {
+		explicitWait = new WebDriverWait(driver,timeout);
+		explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByXpath(formatString(locator, params))));
 	}
 	
 	public void waitForElementClickable(WebDriver driver, String locator) {
@@ -365,9 +391,19 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
 	}
 	
+	public void waitForElementClickable(WebDriver driver, String locator, String...params) {
+		explicitWait = new WebDriverWait(driver,timeout);
+		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(formatString(locator, params))));
+	}
+	
 	public void waitForElementInvisible(WebDriver driver, String locator) {
 		explicitWait = new WebDriverWait(driver,timeout);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(locator)));
+	}
+	
+	public void waitForElementInvisible(WebDriver driver, String locator, String...params) {
+		explicitWait = new WebDriverWait(driver,timeout);
+		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(formatString(locator, params))));
 	}
 	
 	public OrderPageObject openOrderPage(WebDriver driver) {
@@ -403,6 +439,10 @@ public class BasePage {
 		}
 		
 		return null;
+	}
+	
+	private String formatString(String template, String... params) {
+		return String.format(template, (Object[])params);
 	}
 	
 }
