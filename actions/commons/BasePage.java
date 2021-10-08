@@ -2,6 +2,7 @@ package commons;
 
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -24,7 +25,8 @@ public class BasePage {
 	
 	private Alert alert;
 	private WebDriverWait explicitWait;
-	private long timeout = 30;
+	private long timeout = GlobalConstants.LONG_TIMEOUT;
+	private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
 	private Select select;
 	private JavascriptExecutor jsExecutor;
 	private Actions action;
@@ -218,11 +220,32 @@ public class BasePage {
 	}
 	
 	public boolean isElementDisplayed(WebDriver driver, String locator) {
-		return getElement(driver, locator).isDisplayed();
+		//Nhược điểm:
+		//Nếu locator không nằm trong dom => thời gian chạy hàm này sẽ bằng thời gian cài đặt implicitWait >> performance khá chậm
+		try {
+			return getElement(driver, locator).isDisplayed();
+		} catch (Exception e) {
+			return false;
+		}
 	}
 	
 	public boolean isElementDisplayed(WebDriver driver, String locator, String...params) {
-		return getElement(driver, formatString(locator, params)).isDisplayed();
+		return isElementDisplayed(driver, formatString(locator, params));
+	}
+	
+	public boolean isElementUnDisplayed(WebDriver driver, String locator) {
+		overrideGlobalTimeOut(driver, GlobalConstants.SHORT_TIMEOUT);
+		List<WebElement> elements = getElements(driver, locator);
+		overrideGlobalTimeOut(driver, GlobalConstants.LONG_TIMEOUT);
+		
+		if (elements.size() == 0) {
+			//Element is not in DOM
+			return true;
+		}
+		else {
+			//Element is in DOM
+			return elements.get(0).isDisplayed();
+		}
 	}
 	
 	public boolean isElementEnabled(WebDriver driver, String locator) {
@@ -443,6 +466,10 @@ public class BasePage {
 	
 	private String formatString(String template, String... params) {
 		return String.format(template, (Object[])params);
+	}
+	
+	private void overrideGlobalTimeOut(WebDriver driver, long timeout) {
+		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
 	}
 	
 }

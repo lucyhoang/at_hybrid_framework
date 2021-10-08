@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="TestCustomAssert_Log">
+  <parameter name="appUrl" value="https://demo.nopcommerce.com/" />
+  
+  <listeners>
+  	<listener class-name="commons.MethodListener" />
+  	<listener class-name="commons.ReportNGListener" />
+  </listeners>
+  
+  <test name="EDGE-CHROME">
+    <parameter name="browser" value="edge_chrome" />
+    <classes>
+      <!-- <class name="com.java.asserts.Custom_Hard_Assert"/> -->
+      <class name="com.nopcommerce.login.Level_09_Register_Login_Test_NG_Report"/>
+    </classes>
+  </test> 
+  
+</suite> 

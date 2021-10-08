@@ -1,0 +1,325 @@
+[INFO ] [2021-09-15 16:09:40,497] Step 01 - Input to email textbox
+[INFO ] [2021-09-15 16:09:40,523] Step 02 - Input to password textbox
+[INFO ] [2021-09-15 16:09:40,544] Step 03 - Click to Login button
+[INFO ] [2021-09-15 16:09:40,782] Step 05 - Verify error message displayed
+[INFO ] [2021-09-15 16:09:40,806]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-15 16:09:40,806] Step 10 - Verify error message displayed
+[INFO ] [2021-09-15 16:09:40,817]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-09-15 16:09:40,817] Step 45 - Verify .....
+[INFO ] [2021-09-15 16:09:40,852]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-15 16:09:40,853] Step 50 - Verify .....
+[INFO ] [2021-09-15 16:09:40,853]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-09-15 16:09:40,853] Step 65 - Verify .....
+[INFO ] [2021-09-15 16:09:40,853]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-09-15 16:09:40,853] Step 76 - Verify .....
+[INFO ] [2021-09-15 16:09:40,853]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-09-15 16:09:40,858] One
+[INFO ] [2021-09-15 16:09:40,858]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-09-15 16:09:40,859] Two
+[INFO ] [2021-09-15 16:09:40,859]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-09-15 16:09:40,859] Three
+[INFO ] [2021-09-15 16:09:40,859]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 21:40:26,708] Step 01 - Input to email textbox
+[INFO ] [2021-10-03 21:40:26,735] Step 02 - Input to password textbox
+[INFO ] [2021-10-03 21:40:26,755] Step 03 - Click to Login button
+[INFO ] [2021-10-03 21:40:26,991] Step 05 - Verify error message displayed
+[INFO ] [2021-10-03 21:40:27,016]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 21:40:27,016] Step 10 - Verify error message displayed
+[INFO ] [2021-10-03 21:40:27,031]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 21:40:27,031] Step 45 - Verify .....
+[INFO ] [2021-10-03 21:40:27,097]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 21:40:27,098] Step 50 - Verify .....
+[INFO ] [2021-10-03 21:40:27,098]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 21:40:27,098] Step 65 - Verify .....
+[INFO ] [2021-10-03 21:40:27,098]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 21:40:27,099] Step 76 - Verify .....
+[INFO ] [2021-10-03 21:40:27,099]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 21:40:27,107] One
+[INFO ] [2021-10-03 21:40:27,107]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 21:40:27,107] Two
+[INFO ] [2021-10-03 21:40:27,108]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 21:40:27,108] Three
+[INFO ] [2021-10-03 21:40:27,108]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:21:03,467] Step 01 - Input to email textbox
+[INFO ] [2021-10-03 23:21:03,507] Step 02 - Input to password textbox
+[INFO ] [2021-10-03 23:21:03,538] Step 03 - Click to Login button
+[INFO ] [2021-10-03 23:21:03,779] Step 05 - Verify error message displayed
+[INFO ] [2021-10-03 23:21:03,803]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 23:21:03,803] Step 10 - Verify error message displayed
+[INFO ] [2021-10-03 23:21:03,816]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:21:03,817] Step 45 - Verify .....
+[INFO ] [2021-10-03 23:21:03,868]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 23:21:03,868] Step 50 - Verify .....
+[INFO ] [2021-10-03 23:21:03,868]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:21:03,868] Step 65 - Verify .....
+[INFO ] [2021-10-03 23:21:03,869]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:21:03,869] Step 76 - Verify .....
+[INFO ] [2021-10-03 23:21:03,869]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:35:57,532] Step 01 - Input to email textbox
+[INFO ] [2021-10-03 23:35:57,559] Step 02 - Input to password textbox
+[INFO ] [2021-10-03 23:35:57,579] Step 03 - Click to Login button
+[INFO ] [2021-10-03 23:35:57,813] Step 05 - Verify error message displayed
+[INFO ] [2021-10-03 23:35:57,834]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 23:35:57,834] Step 10 - Verify error message displayed
+[INFO ] [2021-10-03 23:35:57,847]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:35:57,847] Step 45 - Verify .....
+[INFO ] [2021-10-03 23:35:57,885]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 23:35:57,885] Step 50 - Verify .....
+[INFO ] [2021-10-03 23:35:57,885]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:35:57,885] Step 65 - Verify .....
+[INFO ] [2021-10-03 23:35:57,885]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:35:57,885] Step 76 - Verify .....
+[INFO ] [2021-10-03 23:35:57,885]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:36:44,686] Step 01 - Input to email textbox
+[INFO ] [2021-10-03 23:36:44,712] Step 02 - Input to password textbox
+[INFO ] [2021-10-03 23:36:44,747] Step 03 - Click to Login button
+[INFO ] [2021-10-03 23:36:44,991] Step 05 - Verify error message displayed
+[INFO ] [2021-10-03 23:36:45,012]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 23:36:45,012] Step 10 - Verify error message displayed
+[INFO ] [2021-10-03 23:36:45,026]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:36:45,027] Step 45 - Verify .....
+[INFO ] [2021-10-03 23:36:45,068]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 23:36:45,068] Step 50 - Verify .....
+[INFO ] [2021-10-03 23:36:45,069]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:36:45,069] Step 65 - Verify .....
+[INFO ] [2021-10-03 23:36:45,069]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:36:45,070] Step 76 - Verify .....
+[INFO ] [2021-10-03 23:36:45,070]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:41:38,478] Step 01 - Input to email textbox
+[INFO ] [2021-10-03 23:41:38,505] Step 02 - Input to password textbox
+[INFO ] [2021-10-03 23:41:38,524] Step 03 - Click to Login button
+[INFO ] [2021-10-03 23:41:38,757] Step 05 - Verify error message displayed
+[INFO ] [2021-10-03 23:41:38,778]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 23:41:38,778] Step 10 - Verify error message displayed
+[INFO ] [2021-10-03 23:41:38,789]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:41:38,790] Step 45 - Verify .....
+[INFO ] [2021-10-03 23:41:38,827]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 23:41:38,827] Step 50 - Verify .....
+[INFO ] [2021-10-03 23:41:38,827]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:41:38,828] Step 65 - Verify .....
+[INFO ] [2021-10-03 23:41:38,828]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:41:38,828] Step 76 - Verify .....
+[INFO ] [2021-10-03 23:41:38,828]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:41:39,054] One
+[INFO ] [2021-10-03 23:41:39,054]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 23:41:39,055] Two
+[INFO ] [2021-10-03 23:41:39,055]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:41:39,055] Three
+[INFO ] [2021-10-03 23:41:39,055]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:56:17,746] Step 01 - Input to email textbox
+[INFO ] [2021-10-03 23:56:17,774] Step 02 - Input to password textbox
+[INFO ] [2021-10-03 23:56:17,790] Step 03 - Click to Login button
+[INFO ] [2021-10-03 23:56:18,022] Step 05 - Verify error message displayed
+[INFO ] [2021-10-03 23:56:18,044]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 23:56:18,044] Step 10 - Verify error message displayed
+[INFO ] [2021-10-03 23:56:18,055]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:56:18,056] Step 45 - Verify .....
+[INFO ] [2021-10-03 23:56:18,090]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 23:56:18,090] Step 50 - Verify .....
+[INFO ] [2021-10-03 23:56:18,090]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:56:18,091] Step 65 - Verify .....
+[INFO ] [2021-10-03 23:56:18,091]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:56:18,091] Step 76 - Verify .....
+[INFO ] [2021-10-03 23:56:18,091]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:56:18,315] One
+[INFO ] [2021-10-03 23:56:18,315]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-10-03 23:56:18,315] Two
+[INFO ] [2021-10-03 23:56:18,315]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-03 23:56:18,315] Three
+[INFO ] [2021-10-03 23:56:18,315]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-06 23:28:40,943] Step 1. Open URL
+[INFO ] [2021-10-06 23:28:42,227] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-06 23:28:42,304]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-06 23:28:42,306] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-06 23:28:44,074] Step 4. Click to gender male radio
+[INFO ] [2021-10-06 23:28:44,142] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-06 23:28:44,275] Step 6. Input to LastName textbox
+[INFO ] [2021-10-06 23:28:44,374] Step 7. Input to Email textbox
+[INFO ] [2021-10-06 23:28:44,482] Step 8. Input to Password textbox
+[INFO ] [2021-10-06 23:28:44,575] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-06 23:28:44,673] Step 10. Click to Register button
+[INFO ] [2021-10-06 23:28:46,227] Step 11. Verify message success displayed
+[INFO ] [2021-10-06 23:28:46,272]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-06 23:28:46,272] Step 12. Logout to HomePage
+[INFO ] [2021-10-06 23:40:50,177] Step 1. Open URL
+[INFO ] [2021-10-06 23:40:51,388] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-06 23:40:51,463]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-06 23:40:51,465] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-06 23:40:53,060] Step 4. Click to gender male radio
+[INFO ] [2021-10-06 23:40:53,130] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-06 23:40:53,263] Step 6. Input to LastName textbox
+[INFO ] [2021-10-06 23:40:53,359] Step 7. Input to Email textbox
+[INFO ] [2021-10-06 23:40:53,470] Step 8. Input to Password textbox
+[INFO ] [2021-10-06 23:40:53,564] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-06 23:40:53,661] Step 10. Click to Register button
+[INFO ] [2021-10-06 23:40:55,415] Step 11. Verify message success displayed
+[INFO ] [2021-10-06 23:40:55,458]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-06 23:40:55,459] Step 12. Logout to HomePage
+[INFO ] [2021-10-07 22:56:00,485] Step 1. Open URL
+[INFO ] [2021-10-07 22:56:01,087] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-07 22:56:01,163]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-07 22:56:01,166] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-07 22:56:02,089] Step 4. Click to gender male radio
+[INFO ] [2021-10-07 22:56:02,157] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-07 22:56:02,308] Step 6. Input to LastName textbox
+[INFO ] [2021-10-07 22:56:02,407] Step 7. Input to Email textbox
+[INFO ] [2021-10-07 22:56:02,521] Step 8. Input to Password textbox
+[INFO ] [2021-10-07 22:56:02,616] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-07 22:56:02,717] Step 10. Click to Register button
+[INFO ] [2021-10-07 22:56:03,718] Step 11. Verify message success displayed
+[INFO ] [2021-10-07 22:56:03,757]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-07 22:56:03,757] Step 12. Logout to HomePage
+[INFO ] [2021-10-08 20:45:23,618] Step 1. Open URL
+[INFO ] [2021-10-08 20:45:24,162] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-08 20:45:24,259]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 20:45:24,263] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-08 20:45:25,783] Step 4. Click to gender male radio
+[INFO ] [2021-10-08 20:45:25,860] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-08 20:45:26,026] Step 6. Input to LastName textbox
+[INFO ] [2021-10-08 20:45:26,140] Step 7. Input to Email textbox
+[INFO ] [2021-10-08 20:45:26,268] Step 8. Input to Password textbox
+[INFO ] [2021-10-08 20:45:26,389] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-08 20:45:26,495] Step 10. Click to Register button
+[INFO ] [2021-10-08 20:45:27,496] Step 11. Verify message success displayed
+[INFO ] [2021-10-08 20:45:27,544]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 20:45:27,544] Step 12. Logout to HomePage
+[INFO ] [2021-10-08 21:38:01,375] Step 1. Open URL
+[INFO ] [2021-10-08 21:38:02,802] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-08 21:38:02,911]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:38:02,916] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-08 21:38:04,499] Step 4. Click to gender male radio
+[INFO ] [2021-10-08 21:38:04,580] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-08 21:38:04,742] Step 6. Input to LastName textbox
+[INFO ] [2021-10-08 21:38:04,880] Step 7. Input to Email textbox
+[INFO ] [2021-10-08 21:38:05,019] Step 8. Input to Password textbox
+[INFO ] [2021-10-08 21:38:05,148] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-08 21:38:05,274] Step 10. Click to Register button
+[INFO ] [2021-10-08 21:38:06,982] Step 11. Verify message success displayed
+[INFO ] [2021-10-08 21:38:07,040]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:38:07,040] Step 12. Logout to HomePage
+[INFO ] [2021-10-08 21:46:21,575] Step 1. Open URL
+[INFO ] [2021-10-08 21:46:22,186] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-08 21:46:22,503]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:46:22,511] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-08 21:46:24,150] Step 4. Click to gender male radio
+[INFO ] [2021-10-08 21:46:24,323] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-08 21:46:24,678] Step 6. Input to LastName textbox
+[INFO ] [2021-10-08 21:46:24,896] Step 7. Input to Email textbox
+[INFO ] [2021-10-08 21:46:25,155] Step 8. Input to Password textbox
+[INFO ] [2021-10-08 21:46:25,447] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-08 21:46:25,711] Step 10. Click to Register button
+[INFO ] [2021-10-08 21:46:27,320] Step 11. Verify message success displayed
+[INFO ] [2021-10-08 21:46:27,421]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:46:27,422] Step 12. Logout to HomePage
+[INFO ] [2021-10-08 21:47:55,561] Step 1. Open URL
+[INFO ] [2021-10-08 21:47:56,207] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-08 21:47:56,419]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:47:56,426] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-08 21:47:58,128] Step 4. Click to gender male radio
+[INFO ] [2021-10-08 21:47:58,406] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-08 21:47:58,748] Step 6. Input to LastName textbox
+[INFO ] [2021-10-08 21:47:59,001] Step 7. Input to Email textbox
+[INFO ] [2021-10-08 21:47:59,266] Step 8. Input to Password textbox
+[INFO ] [2021-10-08 21:47:59,725] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-08 21:48:00,230] Step 10. Click to Register button
+[INFO ] [2021-10-08 21:48:01,746] Step 11. Verify message success displayed
+[INFO ] [2021-10-08 21:48:01,858]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:48:01,860] Step 12. Logout to HomePage
+[INFO ] [2021-10-08 21:50:12,854] Step 1. Open URL
+[INFO ] [2021-10-08 21:50:13,919] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-08 21:50:14,042]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:50:14,048] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-08 21:50:15,740] Step 4. Click to gender male radio
+[INFO ] [2021-10-08 21:50:15,835] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-08 21:50:16,022] Step 6. Input to LastName textbox
+[INFO ] [2021-10-08 21:50:16,159] Step 7. Input to Email textbox
+[INFO ] [2021-10-08 21:50:16,324] Step 8. Input to Password textbox
+[INFO ] [2021-10-08 21:50:16,464] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-08 21:50:16,603] Step 10. Click to Register button
+[INFO ] [2021-10-08 21:50:18,447] Step 11. Verify message success displayed
+[INFO ] [2021-10-08 21:50:18,502]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:50:18,503] Step 12. Logout to HomePage
+[INFO ] [2021-10-08 21:51:39,213] Step 1. Open URL
+[INFO ] [2021-10-08 21:51:39,865] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-08 21:51:39,984]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:51:39,989] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-08 21:51:41,039] Step 4. Click to gender male radio
+[INFO ] [2021-10-08 21:51:41,144] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-08 21:51:41,373] Step 6. Input to LastName textbox
+[INFO ] [2021-10-08 21:51:41,526] Step 7. Input to Email textbox
+[INFO ] [2021-10-08 21:51:41,715] Step 8. Input to Password textbox
+[INFO ] [2021-10-08 21:51:41,864] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-08 21:51:42,014] Step 10. Click to Register button
+[INFO ] [2021-10-08 21:51:42,981] Step 11. Verify message success displayed
+[INFO ] [2021-10-08 21:51:43,039]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:51:43,040] Step 12. Logout to HomePage
+[INFO ] [2021-10-08 21:54:00,002] Step 1. Open URL
+[INFO ] [2021-10-08 21:54:00,563] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-08 21:54:00,674]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:54:00,679] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-08 21:54:01,830] Step 4. Click to gender male radio
+[INFO ] [2021-10-08 21:54:01,938] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-08 21:54:02,130] Step 6. Input to LastName textbox
+[INFO ] [2021-10-08 21:54:02,279] Step 7. Input to Email textbox
+[INFO ] [2021-10-08 21:54:02,484] Step 8. Input to Password textbox
+[INFO ] [2021-10-08 21:54:02,640] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-08 21:54:02,829] Step 10. Click to Register button
+[INFO ] [2021-10-08 21:54:03,838] Step 11. Verify message success displayed
+[INFO ] [2021-10-08 21:54:03,893]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:54:03,894] Step 12. Logout to HomePage
+[INFO ] [2021-10-08 21:59:33,186] Step 1. Open URL
+[INFO ] [2021-10-08 21:59:33,741] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-08 21:59:33,861]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:59:33,866] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-08 21:59:35,078] Step 4. Click to gender male radio
+[INFO ] [2021-10-08 21:59:35,188] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-08 21:59:35,393] Step 6. Input to LastName textbox
+[INFO ] [2021-10-08 21:59:35,547] Step 7. Input to Email textbox
+[INFO ] [2021-10-08 21:59:35,727] Step 8. Input to Password textbox
+[INFO ] [2021-10-08 21:59:35,875] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-08 21:59:36,030] Step 10. Click to Register button
+[INFO ] [2021-10-08 21:59:36,901] Step 11. Verify message success displayed
+[INFO ] [2021-10-08 21:59:36,964]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 21:59:36,965] Step 12. Logout to HomePage
+[INFO ] [2021-10-08 22:19:32,750] Step 1. Open URL
+[INFO ] [2021-10-08 22:19:33,828] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-08 22:19:33,974]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 22:19:33,978] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-08 22:19:35,543] Step 4. Click to gender male radio
+[INFO ] [2021-10-08 22:19:35,660] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-08 22:19:35,878] Step 6. Input to LastName textbox
+[INFO ] [2021-10-08 22:19:36,047] Step 7. Input to Email textbox
+[INFO ] [2021-10-08 22:19:36,230] Step 8. Input to Password textbox
+[INFO ] [2021-10-08 22:19:36,397] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-08 22:19:36,565] Step 10. Click to Register button
+[INFO ] [2021-10-08 22:19:38,745] Step 11. Verify message success displayed
+[INFO ] [2021-10-08 22:19:38,815]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 22:19:38,816] Step 12. Logout to HomePage
+[INFO ] [2021-10-08 22:23:41,681] Step 1. Open URL
+[INFO ] [2021-10-08 22:23:42,549] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-08 22:23:42,936]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 22:23:42,949] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-08 22:23:44,798] Step 4. Click to gender male radio
+[INFO ] [2021-10-08 22:23:44,960] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-08 22:23:45,263] Step 6. Input to LastName textbox
+[INFO ] [2021-10-08 22:23:45,505] Step 7. Input to Email textbox
+[INFO ] [2021-10-08 22:23:45,930] Step 8. Input to Password textbox
+[INFO ] [2021-10-08 22:23:46,419] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-08 22:23:46,899] Step 10. Click to Register button
+[INFO ] [2021-10-08 22:23:48,295] Step 11. Verify message success displayed
+[INFO ] [2021-10-08 22:23:48,395]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 22:23:48,396] Step 12. Logout to HomePage
+[INFO ] [2021-10-08 22:30:28,429] Step 1. Open URL
+[INFO ] [2021-10-08 22:30:29,348] Step 2. Verify logo of homepage displayed
+[INFO ] [2021-10-08 22:30:29,618]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 22:30:29,626] Step 3. Click Register link --> Register page
+[INFO ] [2021-10-08 22:30:31,457] Step 4. Click to gender male radio
+[INFO ] [2021-10-08 22:30:31,761] Step 5. Input to FirstName textbox
+[INFO ] [2021-10-08 22:30:32,105] Step 6. Input to LastName textbox
+[INFO ] [2021-10-08 22:30:32,378] Step 7. Input to Email textbox
+[INFO ] [2021-10-08 22:30:32,678] Step 8. Input to Password textbox
+[INFO ] [2021-10-08 22:30:32,936] Step 9. Input to ConfirmPassword textbox
+[INFO ] [2021-10-08 22:30:33,258] Step 10. Click to Register button
+[INFO ] [2021-10-08 22:30:35,047] Step 11. Verify message success displayed
+[INFO ] [2021-10-08 22:30:35,194]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-10-08 22:30:35,196] Step 12. Logout to HomePage

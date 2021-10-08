@@ -28,7 +28,11 @@
 	<classpathentry kind="lib" path="driverWebManager/httpcore5-5.0.1.jar"/>
 	<classpathentry kind="lib" path="driverWebManager/jarchivelib-1.0.0.jar"/>
 	<classpathentry kind="lib" path="driverWebManager/jsoup-1.13.1.jar"/>
-	<classpathentry kind="lib" path="driverWebManager/slf4j-api-1.7.30.jar"/>
 	<classpathentry kind="lib" path="driverWebManager/webdrivermanager-4.2.0.jar"/>
+	<classpathentry kind="lib" path="Log4J/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="Log4J/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="driverWebManager/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="lib/Extent Report V2/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="lib/Extent Report V2/testng-6.9.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
