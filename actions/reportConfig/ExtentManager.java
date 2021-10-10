@@ -10,7 +10,7 @@ public class ExtentManager {
 		try {
 			if (extent == null) {
 				String workingDir = System.getProperty("user.dir");
-				extent = new ExtentReports(workingDir + "/Reports/ExtentReports/ExtentReportResults.html", true);
+				extent = new ExtentReports(workingDir + "/Reports/ExtentReportV2_Log.html", true);
 			}
 		}
 		catch (Exception e) {

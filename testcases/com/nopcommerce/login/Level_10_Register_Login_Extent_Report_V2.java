@@ -103,43 +103,49 @@ public class Level_10_Register_Login_Extent_Report_V2 extends BaseTest {
 	}
 	
 	@Test
-	public void Login_02_Login() {
-		//Step 1. Click to login link
+	public void Login_02_Login(Method method) {
+		ExtentTestManager.startTest(method.getName(), "Login_02_Login");
+		ExtentTestManager.getTest().log(LogStatus.INFO, "Step 1. Click to login link");
 		loginPage = homePage.clickToLoginLink();
 		
-		//Step 2. Input to email textbox
+		ExtentTestManager.getTest().log(LogStatus.INFO, "Step 2. Input to email textbox");
 		loginPage.enterToEmailTextbox(email);
 		
-		//Step 2. Input to password textbox
+		ExtentTestManager.getTest().log(LogStatus.INFO, "Step 2. Input to password textbox");
 		loginPage.enterToPasswordTextbox(password);
 		
 		System.out.println("email:" + email);
 		System.out.println("password:" + password);
 		
-		//Step 3. click login
+		ExtentTestManager.getTest().log(LogStatus.INFO, "Step 3. click login");
 		loginPage.enterToLoginButton();
 		loginPage.sleepInSecond(5);
 		
-		//Step 4. Verify login well
+		ExtentTestManager.getTest().log(LogStatus.INFO, "Step 4. Verify login well");
 		Assert.assertTrue(homePage.isLoggedIn());
+		
+		ExtentTestManager.endTest();
 	}
 
 	@Test
-	public void Login_03_Switch_At_Footer_Dynamic_Page() {
-		//Home page -> Search page
+	public void Login_03_Switch_At_Footer_Dynamic_Page(Method method) {
+		ExtentTestManager.startTest(method.getName(), "Login_03_Switch_At_Footer_Dynamic_Page");
+		ExtentTestManager.getTest().log(LogStatus.INFO, "Home page -> Search page");
 		searchPage = (SearchPageObject)homePage.openPageByNameFromFooter(driver, BasePageUI.PAGE_NAME.SEARCH);
 		
-		//Search page -> My Account
+		ExtentTestManager.getTest().log(LogStatus.INFO, "Search page -> My Account");
 		myAccountPage = (MyAccountPageObject)searchPage.openPageByNameFromFooter(driver, BasePageUI.PAGE_NAME.MYACCOUNT);
 		
-		//My Account -> Order Page
+		ExtentTestManager.getTest().log(LogStatus.INFO, "My Account -> Order Page");
 		orderPage = (OrderPageObject)myAccountPage.openPageByNameFromFooter(driver, BasePageUI.PAGE_NAME.ORDERS);
 		
-		//Order -> My Account
+		ExtentTestManager.getTest().log(LogStatus.INFO, "Order -> My Account");
 		myAccountPage = (MyAccountPageObject)orderPage.openPageByNameFromFooter(driver, BasePageUI.PAGE_NAME.MYACCOUNT);
 		
-		//My Account -> Search Page
+		ExtentTestManager.getTest().log(LogStatus.INFO, "My Account -> Search Page");
 		searchPage = (SearchPageObject)myAccountPage.openPageByNameFromFooter(driver, BasePageUI.PAGE_NAME.SEARCH);
+		
+		ExtentTestManager.endTest();
 	}
 	
 	@AfterClass

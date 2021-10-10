@@ -23,7 +23,7 @@ public class ExtentReportListener implements IReporter {
 	private ExtentTest test;
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
-		extent = new ExtentReports(System.getProperty("user.dir") + "/Reports/ExtentReportV2/ExtentReport.html", true);
+		extent = new ExtentReports(System.getProperty("user.dir") + "/Reports/ExtentReportV2.html", true);
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
 

@@ -32,7 +32,13 @@
 	<classpathentry kind="lib" path="Log4J/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="Log4J/log4j-1.2.16.jar"/>
 	<classpathentry kind="lib" path="driverWebManager/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="lib/Extent Report V2/bson-3.0.4.jar"/>
 	<classpathentry kind="lib" path="lib/Extent Report V2/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="lib/Extent Report V2/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="lib/Extent Report V2/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/Extent Report V2/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/Extent Report V2/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/Extent Report V2/sqlite-jdbc-3.8.11.1.jar"/>
 	<classpathentry kind="lib" path="lib/Extent Report V2/testng-6.9.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
