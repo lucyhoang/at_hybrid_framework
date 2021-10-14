@@ -1,0 +1,114 @@
+{
+  "uid" : "c609f4a0f30dd496",
+  "name" : "Login_02_Login",
+  "fullName" : "com.nopcommerce.login.Level_10_Register_Login_Extent_Report_V2.Login_02_Login",
+  "historyId" : "4f6596d0015918de111cde6da8c040c0",
+  "time" : {
+    "start" : 1634216751195,
+    "stop" : 1634216758267,
+    "duration" : 7072
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1634216741447,
+      "stop" : 1634216746414,
+      "duration" : 4967
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "deleteAllFilesInReportNGScreenshot",
+    "time" : {
+      "start" : 1634216741432,
+      "stop" : 1634216741436,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1634216762115,
+      "stop" : 1634216762199,
+      "duration" : 84
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.nopcommerce.login.Level_10_Register_Login_Extent_Report_V2"
+  }, {
+    "name" : "testClass",
+    "value" : "com.nopcommerce.login.Level_10_Register_Login_Extent_Report_V2"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login_02_Login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCustomAssert_Log"
+  }, {
+    "name" : "suite",
+    "value" : "CHROME"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.nopcommerce.login.Level_10_Register_Login_Extent_Report_V2"
+  }, {
+    "name" : "host",
+    "value" : "macs-MacBook-Pro-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "81264@macs-MacBook-Pro-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "appUrl",
+    "value" : "https://demo.nopcommerce.com/"
+  }, {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c609f4a0f30dd496.json",
+  "parameterValues" : [ "https://demo.nopcommerce.com/", "chrome" ]
+}

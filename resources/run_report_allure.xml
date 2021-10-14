@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="TestCustomAssert_Log">
+  <parameter name="appUrl" value="https://demo.nopcommerce.com/" />
+  
+  <listeners>
+  	<listener class-name="commons.MethodListener" />
+  	<listener class-name="reportConfig.AllureTestListener" />
+  </listeners>
+  
+  <test name="CHROME">
+  	<parameter name="browser" value="chrome" />
+    <classes>
+      <class name="com.nopcommerce.login.Level_10_Register_Login_Extent_Report_V2"/>
+    </classes>
+  </test> 
+  
+</suite> 

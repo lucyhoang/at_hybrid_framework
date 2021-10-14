@@ -1,0 +1,31 @@
+[ {
+  "uid" : "9178405fda9a5a7",
+  "name" : "Login_01_Register_To_System",
+  "time" : {
+    "start" : 1634217419649,
+    "stop" : 1634217448719,
+    "duration" : 29070
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b31f43b30a42c155",
+  "name" : "Login_03_Switch_At_Footer_Dynamic_Page",
+  "time" : {
+    "start" : 1634217455636,
+    "stop" : 1634217458659,
+    "duration" : 3023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d721bb1250a8f5a2",
+  "name" : "Login_02_Login",
+  "time" : {
+    "start" : 1634217448784,
+    "stop" : 1634217455631,
+    "duration" : 6847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
